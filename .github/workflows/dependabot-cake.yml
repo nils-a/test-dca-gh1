@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest # linux, because this is a docker-action
     steps:
       - name: check/update cake dependencies
-        uses: nils-org/dependabot-cake-action@ca8afe5a09dc53f444945969ebcbc59b93b13ff8
+        uses: nils-org/dependabot-cake-action@b5eafa78fe47bc6575fbbe4601d5fd694db8abb7
         with:
           ignore: |
             Cake.7zip
