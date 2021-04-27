@@ -8,7 +8,8 @@ jobs:
     steps:
       - name: check/update cake dependencies
         uses: nils-org/dependabot-cake-action@ca8afe5a09dc53f444945969ebcbc59b93b13ff8
-        ignore: |
-          Cake.7zip
-          Cake.asciidoctorj
-          Cake.FileHelpers
+        with:
+          ignore: |
+            Cake.7zip
+            Cake.asciidoctorj
+            Cake.FileHelpers
